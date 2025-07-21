@@ -39,10 +39,12 @@ html {
   font-weight: 100;
   font-style: normal;
   font-size: 22px;
+  transition: color 0.5s ease;
 }
 
 .navigation li:hover {
   cursor: pointer;
+  color: #9D8665;
 }
 
 .navigation {
@@ -80,7 +82,83 @@ html {
 
 
 
+
+
+.sectionWelcome_1 {
+  background-color:#030303;
+}
 .sectionWelcome {
   height: 810px;
-  background-color:aqua;
+  background-color: #030303;
+  position: relative;
+}
+
+.frame_welcome {
+  width: 598px;
+  height: 388px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  position: absolute;
+  top: 150px;
+  left: 0;
+  z-index: 10;
+}
+
+.frame_welcome button {
+  all: unset;
+  background-color: #710707;
+  width: 360px;
+  height: 75px;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 100;
+  border-radius: 10px;
+  text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+.frame_welcome button:hover {
+  background-color: #9D8665;
+  cursor: pointer;
+}
+
+.frame_welcome h2 {
+  color:#FFFFFF;
+  font-family: Forum;
+  font-size: 80px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.frame_welcome p {
+  font-family: Roboto;
+  font-size: 28px;
+  color:#FFFFFF;
+  font-weight: 100;
+}
+
+
+
+.backgroundPicture {
+  width: 1000px;
+  height: 750px;
+
+  position: absolute;
+  z-index: 1;
+  left: 440px;
+}
+
+.backgroundPicture::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(3, 3, 3, 1), transparent);
+  z-index: 2;
+  pointer-events: none;
 }
