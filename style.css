@@ -162,3 +162,71 @@ html {
   z-index: 2;
   pointer-events: none;
 }
+
+
+
+
+.sliderPagination {
+  width: 600px;
+  height: 120px;
+  background-color: #030303;
+  position: absolute;
+  z-index: 9;
+  left: 840px;
+  top: 690px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.welcome-slide-num {
+  width: 76px;
+  height: 40px;
+  color:#FFFFFF;
+  font-family: Roboto;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-slide-num p {
+  transition: color 0.5s ease;
+}
+
+.welcome-slide-num p:hover {
+  color: #D2B183;
+  cursor: pointer;
+}
+
+.carousel-pagination ul {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-pagination ul li {
+  width: 16px;
+  height: 16px;
+  background-color:#FFFFFF;
+  list-style-type: none;
+  transition: background-color 0.5s ease;
+}
+
+.carousel-pagination ul li:hover {
+  background-color: #D2B183;
+  cursor: pointer;
+}
+
+
+.arrow-icon {
+  color: #FFFFFF;
+  transition: color 0.5s ease;
+}
+
+.arrow-icon:hover {
+  color: #D2B183;
+  cursor: pointer;
+}
+
+
