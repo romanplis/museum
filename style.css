@@ -21,4 +21,66 @@ html {
   display: flex;
   background-color: #030303;
   color: #FFFFFF;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
+}
+
+.header_1 {
+  background-color: #030303;
+
+}
+
+.navigation li {
+  text-decoration: none;
+  list-style-type: none;
+
+  font-family: Roboto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 22px;
+}
+
+.navigation li:hover {
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoLouvre {
+  display: flex;
+}
+
+.logoLouvre:hover {
+  cursor: pointer;
+}
+
+.logoLouvre img {
+  height: 26px;
+  width: 49px;
+  margin-right: 25px;
+}
+
+.logoLouvre h1 {
+  font-family: Forum;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.navigation_1 {
+  height: 26px;
+  width: 775px;
+}
+
+
+
+
+.sectionWelcome {
+  height: 810px;
+  background-color:aqua;
 }
